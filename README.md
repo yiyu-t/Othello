@@ -1,6 +1,5 @@
 # Othello
-* In general, the game can only have 3 classes. A board, a disk, and game
-controller. 
+* Othello is a strategy board game for two players, played on an uncheckered board. During a play, any disks of the opponent's color that are in a straight line and bounded by the disk just placed and another disk of the current player's color are turned over to the current player's color.The object of the game is to have the majority of disks turned to display your color when the last playable empty square is filled.
 
 * I wrote a “smart_ai” method in my game_controller. 
     Whenever it’s the AI’s turn, “ai_make_move” will call “smart_ai”.
